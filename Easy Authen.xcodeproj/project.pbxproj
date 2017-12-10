@@ -12,6 +12,10 @@
 		C2E58BA51FDBCE460064C848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E58BA31FDBCE460064C848 /* Main.storyboard */; };
 		C2E58BA71FDBCE460064C848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E58BA61FDBCE460064C848 /* Assets.xcassets */; };
 		C2E58BAA1FDBCE460064C848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E58BA81FDBCE460064C848 /* LaunchScreen.storyboard */; };
+		C2E58BB21FDBD10D0064C848 /* if_user_login_61841.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E58BB11FDBD10D0064C848 /* if_user_login_61841.png */; };
+		C2E58BB41FDBD31D0064C848 /* eberhard-grossgasteiger-311213.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2E58BB31FDBD31D0064C848 /* eberhard-grossgasteiger-311213.jpg */; };
+		C2E58BB61FDBDAB50064C848 /* ic_lock_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E58BB51FDBDAB50064C848 /* ic_lock_48pt.png */; };
+		C2E58BB81FDBDAC20064C848 /* ic_account_box_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E58BB71FDBDAC20064C848 /* ic_account_box_48pt.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		C2E58BA61FDBCE460064C848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2E58BA91FDBCE460064C848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2E58BAB1FDBCE460064C848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E58BB11FDBD10D0064C848 /* if_user_login_61841.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = if_user_login_61841.png; sourceTree = "<group>"; };
+		C2E58BB31FDBD31D0064C848 /* eberhard-grossgasteiger-311213.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "eberhard-grossgasteiger-311213.jpg"; sourceTree = "<group>"; };
+		C2E58BB51FDBDAB50064C848 /* ic_lock_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_48pt.png; sourceTree = "<group>"; };
+		C2E58BB71FDBDAC20064C848 /* ic_account_box_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_account_box_48pt.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 				C2E58BA11FDBCE460064C848 /* ViewController.swift */,
 				C2E58BA31FDBCE460064C848 /* Main.storyboard */,
 				C2E58BA61FDBCE460064C848 /* Assets.xcassets */,
+				C2E58BB31FDBD31D0064C848 /* eberhard-grossgasteiger-311213.jpg */,
+				C2E58BB11FDBD10D0064C848 /* if_user_login_61841.png */,
+				C2E58BB51FDBDAB50064C848 /* ic_lock_48pt.png */,
+				C2E58BB71FDBDAC20064C848 /* ic_account_box_48pt.png */,
 				C2E58BA81FDBCE460064C848 /* LaunchScreen.storyboard */,
 				C2E58BAB1FDBCE460064C848 /* Info.plist */,
 			);
@@ -123,9 +135,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2E58BB61FDBDAB50064C848 /* ic_lock_48pt.png in Resources */,
 				C2E58BAA1FDBCE460064C848 /* LaunchScreen.storyboard in Resources */,
 				C2E58BA71FDBCE460064C848 /* Assets.xcassets in Resources */,
+				C2E58BB21FDBD10D0064C848 /* if_user_login_61841.png in Resources */,
+				C2E58BB81FDBDAC20064C848 /* ic_account_box_48pt.png in Resources */,
 				C2E58BA51FDBCE460064C848 /* Main.storyboard in Resources */,
+				C2E58BB41FDBD31D0064C848 /* eberhard-grossgasteiger-311213.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

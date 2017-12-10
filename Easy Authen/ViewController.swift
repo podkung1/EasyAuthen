@@ -11,6 +11,31 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+//    Explicit ประกาศตัวแปร
+    var userString: String = ""
+    var passwordString: String = ""
+    var displayStrings = ["Have Space Please Fill All Blank","User False","Password False","Welcome Member"]
+    
+    
+    
+    
+    @IBOutlet weak var userTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var displayTextField: UILabel!
+
+    @IBAction func loginButton(_ sender: Any) {
+//        Get Value From Textfield
+        userString = userTextField.text!
+        passwordString = passwordTextField.text!
+        
+//        Show Log
+        print("User ==> \(userString)")
+        print("Password ==> \(passwordString)")
+    }
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
