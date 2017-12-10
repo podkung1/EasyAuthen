@@ -15,7 +15,8 @@ class ViewController: UIViewController {
 //    Explicit ประกาศตัวแปร
     var userString: String = ""
     var passwordString: String = ""
-    var displayStrings = ["Have Space Please Fill All Blank","User False","Password False","Welcome Member"]
+    var displayStrings: Array = ["Have Space Please Fill All Blank","User False","Password False","Welcome Member"]
+    var dicMemberStrings: Dictionary = ["User1":"1234","user2":"12345","user3":"123456"]
     
     
     
