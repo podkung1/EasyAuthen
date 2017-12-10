@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     var userString: String = ""
     var passwordString: String = ""
     var displayStrings: Array = ["Have Space Please Fill All Blank","User False","Password False","Welcome Member"]
-    var dicMemberStrings: Dictionary = ["User1":"1234","user2":"12345","user3":"123456"]
+    var dicMemberStrings: Dictionary = ["user1":"1234","user2":"12345","user3":"123456"]
     
     
     
@@ -33,7 +33,27 @@ class ViewController: UIViewController {
 //        Show Log
         print("User ==> \(userString)")
         print("Password ==> \(passwordString)")
-    }
+        
+ //    Check User
+        if var myCheckPassword = dicMemberStrings[userString] {
+//            True
+            print("TruePassword ==> \(myCheckPassword)")
+            
+            if (passwordString == myCheckPassword) {
+                displayTextField.text = displayStrings[3]
+            } else {
+                displayTextField.text = displayStrings[2]
+            }
+            
+        } else {
+//            False
+            displayTextField.text = displayStrings[1]
+        }
+        
+        
+    }  // login Button
+    
+
     
     
     
